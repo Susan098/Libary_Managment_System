@@ -12,7 +12,7 @@ public class InputUtil {
             sc.next();
         }
         int value = sc.nextInt();
-        sc.nextLine(); // consume newline
+        sc.nextLine(); 
         return value;
     }
 
