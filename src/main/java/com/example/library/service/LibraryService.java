@@ -17,7 +17,7 @@ public class LibraryService {
     }
     
     public boolean returnBook(int bookId, int userId) {
-        // Check if user has borrowed this book
+    
         if (memberService.hasBorrowedBook(userId, bookId)) {
             return bookDao.returnBook(bookId, userId);
         }

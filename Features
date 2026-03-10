@@ -12,7 +12,7 @@
 
 ## Subjects Available
 
-- JavaScript
+- Java
 - Math
 - Chemistry
 - Physics
@@ -51,7 +51,6 @@ vayena vane
 
 
 
-save the code
 git add .
 >> git commit -m "Initial commit"                                                                                     
 >> git branch -M main
