@@ -46,3 +46,13 @@ vayena vane
 >> Get-ChildItem -Path src\main\java\com\example\library -Recurse -Filter *.java | ForEach-Object { $_.FullName } | Set-Content sources.txt   
 >> javac -d . (Get-Content sources.txt)
 >> java -cp . com.example.library.Main
+
+
+
+
+
+save the code
+git add .
+>> git commit -m "Initial commit"                                                                                     
+>> git branch -M main
+>> git push -u origin main
