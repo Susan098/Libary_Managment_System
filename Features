@@ -1,0 +1,48 @@
+ One Man Army
+## Features
+
+- User Registration and Login
+- View all books
+- Search books by subject
+- Borrow and return books
+- View available books
+- View borrowed books
+- Borrow history tracking
+- Add new books (Admin only)
+
+## Subjects Available
+
+- JavaScript
+- Math
+- Chemistry
+- Physics
+- COA (Computer Organization and Architecture)
+- OS (Operating Systems)
+- WMAD (Web and Mobile App Development)
+- English
+- Nepali
+
+## Default Users
+
+**Admin:**
+- Username: admin
+- Password: admin123
+
+**Regular Users:**
+- Username: john, Password: password123
+- Username: jane, Password: password123
+
+## How to Compile and Run
+
+### Using Command Prompt (Windows):
+```cmd
+cd C:\Users\subed\Library_management_system
+dir /s /B src\main\java\com\example\library\*.java > sources.txt
+javac -d . @sources.txt
+java com.example.library.Main
+
+
+vayena vane 
+Get-ChildItem -Path src\main\java\com\example\library -Recurse -Filter *.java | ForEach-Object { $_.FullName } | Set-Content sources.txt
+javac -d . (Get-Content sources.txt)
+java -cp . com.example.library.Main
