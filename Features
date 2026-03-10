@@ -43,6 +43,6 @@ java com.example.library.Main
 
 
 vayena vane 
-Get-ChildItem -Path src\main\java\com\example\library -Recurse -Filter *.java | ForEach-Object { $_.FullName } | Set-Content sources.txt
-javac -d . (Get-Content sources.txt)
-java -cp . com.example.library.Main
+>> Get-ChildItem -Path src\main\java\com\example\library -Recurse -Filter *.java | ForEach-Object { $_.FullName } | Set-Content sources.txt   
+>> javac -d . (Get-Content sources.txt)
+>> java -cp . com.example.library.Main
