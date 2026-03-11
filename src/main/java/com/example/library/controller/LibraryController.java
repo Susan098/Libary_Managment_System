@@ -41,7 +41,7 @@ public class LibraryController {
                 register();
                 break;
             case 3:
-                System.out.println("Thank you for using Library Management System!");
+                System.out.println("Thank you ");
                 System.exit(0);
                 break;
             default:
@@ -136,7 +136,7 @@ public class LibraryController {
     
     private void searchBooks() {
         System.out.println("\nSubjects available:");
-        System.out.println("javascript, Math, Chemistry, Physics, COA, OS, WMAD, English, Nepali");
+        System.out.println("java, Math, Chemistry, Physics, COA, OS, WMAD, English, Nepali");
         System.out.print("Enter subject to search: ");
         String subject = InputUtils.getStringInput();
         

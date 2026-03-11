@@ -17,40 +17,39 @@ public class BookDao {
     
     private void initializeBooks() {
         // Java books
-        books.add(new Book(nextId++, "Java: The Good Parts", "Douglas Crockford", "java", "978-0596517748", true));
-        books.add(new Book(nextId++, "java 2.o", "Marijn Haverbeke", "java", "978-1593279509", true));
+        books.add(new Book(nextId++, "Java: The Good Parts", "Apar", "java", "11111111111", true));
+        books.add(new Book(nextId++, "java 2.o", "Apar sir", "java", "222222222222222", true));
         
         // Math books
-        books.add(new Book(nextId++, "Calculus", "Bhimmmmm", "Math", "978-0538497817", true));
-        books.add(new Book(nextId++, "Linear Algebra", "Bhimmmm", "Math", "978-1733146678", true));
+        books.add(new Book(nextId++, "matrix", "Bhimmmmm", "Math", "333333333333", true));
+        books.add(new Book(nextId++, "Linear Algebra", "Bhimmmm", "Math", "444444444", true));
         
         // Chemistry books
-        books.add(new Book(nextId++, "Chemistry: The Central Science", "Sujan", "Chemistry", "978-0134414232", true));
-        books.add(new Book(nextId++, "Organic Chemistry", "David Klein", "Shristi", "978-1119110477", true));
+        books.add(new Book(nextId++, "Chemistry: The Central Science", "Sujan", "Chemistry", "5555555", true));
+        books.add(new Book(nextId++, "Organic Chemistry", "Saubhagya", "Shristi", "666666", true));
         
         // Physics books
-        books.add(new Book(nextId++, "University Physics", "Dhoom Bhim", "Physics", "978-0321973610", true));
-        books.add(new Book(nextId++, "Fundamentals of Physics", "Bhim", "Physics", "978-1118230725", true));
+        books.add(new Book(nextId++, "University Physics", "Dhoom Bhim", "Physics", "777777", true));
+        books.add(new Book(nextId++, "Fundamentals of Physics", "Bhim", "Physics", "888888888", true));
         
         // COA books
-        books.add(new Book(nextId++, "Computer Organization", "RAjan", "COA", "978-0134997193", true));
-        books.add(new Book(nextId++, "Computer Architecture", "NAbin", "COA", "978-0123838728", true));
-        
-        // OS books
-        books.add(new Book(nextId++, "Operating Systems", "Sanam", "OS", "978-1119800361", true));
-        books.add(new Book(nextId++, "Modern Operating Systems", "Devilal", "OS", "978-0133591620", true));
+        books.add(new Book(nextId++, "Computer Organization", "Rajan", "COA", "9999999999", true));
+        books.add(new Book(nextId++, "Computer Architecture", "Nabin", "COA", "100000000", true));
+        // os books
+       books.add(new Book(nextId++, "Operating Systems", "Sanam", "OS", "11-11-11-11", true));
+        books.add(new Book(nextId++, "Modern Operating Systems", "Devilal", "OS", "12-12-12-12", true));
         
         // WMAD books
-        books.add(new Book(nextId++, "Web Development", "Jon Duckett", "WMAD", "978-1118008188", true));
-        books.add(new Book(nextId++, "Mobile App Development", "Saugat", "WMAD", "978-1234567890", true));
+        books.add(new Book(nextId++, "Web Development", "Rajan", "WMAD", "0123", true));
+        books.add(new Book(nextId++, "Mobile App Development", "Saugat", "WMAD", "7890", true));
         
         // English books
-        books.add(new Book(nextId++, "English Grammar", "Raymond Murphy", "English", "978-0521532891", true));
-        books.add(new Book(nextId++, "er English", "Saubhagya ", "English", "978-0521532892", true));
+        books.add(new Book(nextId++, "English Grammar", "Bhagya", "English", "1245", true));
+        books.add(new Book(nextId++, "er English", "Saubhagya ", "English", "3456", true));
         
         // Nepali books
-        books.add(new Book(nextId++, "Nepali ", "Various Authors", "Nepali", "978-9993304537", true));
-        books.add(new Book(nextId++, "Nepali + English", "MinaSapkota", "Nepali", "978-9993304538", true));
+        books.add(new Book(nextId++, "Nepali ", "Various Authors", "Nepali", "6789", true));
+        books.add(new Book(nextId++, "Nepali + English", "MinaSapkota", "Nepali", "12345", true));
     }
     
     public List<Book> getAllBooks() {
