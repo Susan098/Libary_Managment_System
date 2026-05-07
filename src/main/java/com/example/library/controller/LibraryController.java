@@ -178,7 +178,7 @@ public class LibraryController {
     }
     
     private void viewBorrowHistory() {
-        System.out.println("\n=== BORROW HISTORY ===");
+        System.out.println("\n== BORROW HISTORY ==");
         memberService.getBorrowHistory(currentUser.getId()).forEach(System.out::println);
     }
     
@@ -199,7 +199,7 @@ public class LibraryController {
         String isbn = InputUtils.getStringInput();
         
         if (bookService.addBook(title, author, subject, isbn)) {
-            System.out.println("Book added successfully!");
+            System.out.println("Book added successfully");
         } else {
             System.out.println("Failed to add book.");
         }
@@ -207,6 +207,6 @@ public class LibraryController {
     
     private void logout() {
         currentUser = null;
-        System.out.println("Logged out successfully!");
+        System.out.println("Logged out successfully");
     }
 }

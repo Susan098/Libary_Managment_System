@@ -14,7 +14,7 @@ public class Login {
         users.put(admin.getUsername(), admin);
         
         
-        User user1 = new User(nextUserId++, "John Doe", "john", "password123", "john@email.com", false);
+        User user1 = new User(nextUserId++, "John Doe", "johnn", "password123", "johnn@email.com", false);
         users.put(user1.getUsername(), user1);
         
         User user2 = new User(nextUserId++, "Jane Smith", "jane", "password123", "jane@email.com", false);
